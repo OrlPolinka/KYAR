@@ -1,0 +1,289 @@
+.nav li{
+    display: inline;
+    border: solid black 2px;
+    padding: 5px;
+    background-color: thistle;
+    margin-right: -4px;
+}
+
+table{
+    border: solid black 3px;
+}
+
+img{
+    height: 17em;
+    width: 22em;
+}
+
+
+.i01:hover{
+    transform: scale(0.5);
+    transition: transform 5s;
+}
+
+.i02:hover{
+    transform: rotate(45deg);
+    transition: transform 5s;
+}
+
+.i03:hover{
+    transform: translate(50px);
+    transition: transform 5s;
+}
+
+.i04:hover{
+    transform: skew(-20deg);
+    transition: transform 5s;
+}
+
+
+.i11{
+    transform: perspective(1000px) rotateX(50deg);
+}
+
+.i12{
+    transform: perspective(1000px) rotateY(50deg);
+}
+
+.i13{
+    transform: perspective(1000px) rotateX(50deg); 
+}
+
+.i14{
+    transform: perspective(1000px) rotateY(-50deg);
+}
+
+
+.b1:hover{
+    background-color: black;
+    color: white;
+}
+
+.b2:hover{
+    border: solid 3px red;
+    outline: solid 3px yellow;
+    background-color: white;
+}
+
+.b3:hover{
+    border-bottom: solid 3px green;
+    border-top: solid 3px green;
+    border-left: 0px;
+    border-right: 0px;
+    background-color: white;
+}
+
+.b4:hover{
+    background-color: white;
+    border-top: 0px;
+    border-bottom: 0px;
+    border-left: solid 3px blue;
+    border-right: solid 3px blue;
+
+}
+
+.b5:hover{
+    background-image: radial-gradient(rgb(255, 238, 0), rgb(244, 173, 220), rgb(216, 48, 216), rgb(9, 174, 224));
+    border: 0px;
+}
+
+.b1, .b2, .b3, .b4, .b5{
+    display: inline-block;
+    margin: 20px;
+}
+
+
+@keyframes animation1 {
+    0% {transform: perspective(200px) rotateY(40deg);
+    transform-style: flat;}
+    50% {transform: none;}
+    100% {}
+}
+
+@keyframes animation2 {
+    0%{transform: perspective(200px) rotateY(40deg);
+        transform-style: flat;}
+    50%{transform: translateX(-200px);
+        filter: none;}
+    100%{transform: none;
+        filter: blur(10px);}
+}
+
+@keyframes animation3 {
+    0%{transform: perspective(200px) rotateY(40deg);
+        transform-style: flat;}
+    50%{transform: translateX(-400px);
+        filter: none;}
+    100%{transform: none;
+        filter: grayscale(1);}
+}
+
+@keyframes animation4{
+    0%{transform: perspective(200px) rotateY(40deg);
+        transform-style: flat;}
+    50%{transform: translateX(-600px);
+        filter: none;}
+    100%{transform: none;
+        filter:invert(1);}
+}
+
+    .i21{
+        position: relative;
+        animation: animation1 6s linear;
+    }
+
+    .i22{
+        position: relative;
+        animation: animation2 6s linear;
+        
+    }
+
+    .i23{
+        position: relative;
+        animation: animation3 6s linear;
+       
+    }
+
+    .i24{
+        position: relative;
+        animation: animation4 6s linear;
+       
+    }
+
+
+    .i31, .i32, .i33, .i34, .i35{
+        animation-duration: 5s;
+        animation-iteration-count: infinite;
+        border: 3px solid red;
+        position: absolute;
+    }
+    
+    .image-container1{
+        position: relative;
+    }
+    
+    @keyframes an1{
+        20%{opacity: 1;}
+        40%{opacity: 0;}
+        60%{opacity: 0;}
+        80%{opacity: 0;}
+        100%{opacity: 0;}
+    }
+    
+    @keyframes an2{
+        20%{opacity: 0;}
+        40%{opacity: 1;}
+        60%{opacity: 0;}
+        80%{opacity: 0;}
+        100%{opacity: 0;}
+    }
+    
+    @keyframes an3{
+        20%{opacity: 0;}
+        40%{opacity: 0;}
+        60%{opacity: 1;}
+        80%{opacity: 0;}
+        100%{opacity: 0;}
+    }
+    
+    @keyframes an4{
+        20%{opacity: 0;}
+        40%{opacity: 0;}
+        60%{opacity: 0;}
+        80%{opacity: 1;}
+        100%{opacity: 0;}
+    }
+    
+    @keyframes an5{
+        20%{opacity: 0;}
+        40%{opacity: 0;}
+        60%{opacity: 0;}
+        80%{opacity: 0;}
+        100%{opacity: 1;}
+    }
+    
+    .i31{animation-name: an1;}
+    
+    .i32{animation-name: an2;}
+    
+    .i33{animation-name: an3;}
+    
+    .i34{animation-name: an4;}
+    
+    .i35{animation-name: an5;}
+
+
+    .image-container2{
+        margin-top: 20em;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .i41{
+        position: relative;
+        animation: ani1 5s linear infinite;
+    }
+    
+    .i42{
+        position: relative;
+        animation: ani2 5s linear infinite;
+    }
+    
+    .i43{
+        position: relative;
+        animation: ani3 5s linear infinite;
+    }
+    
+    .i44{
+        position: relative;
+        animation: ani4 5s linear infinite;
+    }
+    
+    .i45{
+        position: relative;
+        animation: ani5 5s linear infinite;
+    }
+    
+    @keyframes ani1{
+        0%{left: 0px;}
+        100%{left: 200px;}
+    }
+    
+    @keyframes ani2{
+        0%{left: 0%;
+        transform: scale(1);}
+        100%{left: 100%;
+        transform: scale(2);}
+    }
+    
+    @keyframes ani3{
+        0%{left: -100%;}
+        100%{left: 100%;}
+    }
+    
+    @keyframes ani4{
+        0%{top: 0px;}
+        100%{top: 50px;}
+    }
+    
+    @keyframes ani5{
+        0%{top: 0px; left: 0px;}
+        25%{top: 0px; left: 50px;}
+        50%{top: 50px; left: 50px;}
+        75%{top: 50px; left: 0px;}
+        100%{top: 0px; left: 0px;}
+    }
+
+
+    .zad7{
+        width: 300px;
+        height: 300px;
+        animation: text 5s linear infinite;
+        background-color: thistle;
+    }
+    
+    @keyframes text{
+        0%{color: violet;}
+        50%{color: blueviolet;}
+        100%{color: violet;}
+    }

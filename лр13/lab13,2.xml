@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="lab13,2.xsl" ?>
+<table>
+    <row>
+		<student>Аврусевич Е.</student>
+		<progress>9</progress>
+	</row>
+	<row>
+		<student>Бондарик Н.</student>
+		<progress>6</progress>
+	</row>
+    <row>
+		<student>Волосюк А.</student>
+		<progress>7</progress>
+	</row>
+    <row>
+		<student>Головейко П.</student>
+		<progress>8</progress>
+	</row>
+    <row>
+		<student>Добринец М.</student>
+		<progress>7</progress>
+	</row>
+    <row>
+		<student>Дрозд С.</student>
+		<progress>8</progress>
+	</row>
+    <row>
+		<student>Дубина А.</student>
+		<progress>9</progress>
+	</row>
+    <row>
+		<student>Милочкин И.</student>
+		<progress>6</progress>
+	</row>
+    <row>
+		<student>Мойсеенко Д.</student>
+		<progress>2</progress>
+	</row>
+    <row>
+		<student>Орловская П.</student>
+		<progress>9</progress>
+	</row>
+    <row>
+		<student>Павлович Я.</student>
+		<progress>10</progress>
+	</row>
+    <row>
+		<student>Прокопович А.</student>
+		<progress>7</progress>
+	</row>
+    <row>
+		<student>Семуков Е.</student>
+		<progress>7</progress>
+	</row>
+    <row>
+		<student>Филиппчик И.</student>
+		<progress>3</progress>
+	</row>
+	<row>
+		<student>Хуторцов К.</student>
+		<progress>5</progress>
+	</row>
+    <row>
+		<student>Яговдик В.</student>
+		<progress>6</progress>
+	</row>
+</table>

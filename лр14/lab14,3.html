@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <svg xmlns="http://www.w3.org/2000/svg" width="1920" height="1080"> 
+        <path d="M100 200 V170 H60 L100 110 H70 L115 50 L160 110 H130 L170 170 H130 V200 Z" stroke="black" fill="none" stroke-width="2" /> 
+        <path id="star1" d="M90 85 V105 L95 115 L105 115 L95 120 L100 130 L90 125 L80 130 L85 120 L75 115 L85 115 L90 105"  stroke="black" fill="yellow" stroke-width="1" /> 
+        <animate xlink:href="#star1" attributeName="fill" from="yellow" to="red" dur="3s" repeatCount="indefinite" /> 
+        <path id="star2" d="M130 110 V130 L135 140 L145 140 L135 145 L140 155 L130 150 L120 155 L125 145 L115 140 L125 140 L130 130"  stroke="black" fill="red" stroke-width="1" /> 
+        <animate xlink:href="#star2" attributeName="fill" from="red" to="blue" dur="3s" repeatCount="indefinite" /> 
+        <path id="star3" d="M105 145 V165 L110 175 L120 175 L110 180 L115 190 L105 185 L95 190 L100 180 L90 175 L100 175 L105 165" stroke="black" fill="blue" stroke-width="1" /> 
+        <animate xlink:href="#star3" attributeName="fill" from="blue" to="pink" dur="3s" repeatCount="indefinite" /> 
+    </svg>
+</body>
+</html>

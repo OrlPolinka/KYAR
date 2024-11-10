@@ -1,0 +1,23 @@
+.grid{
+    display: grid;
+    grid-template-columns: 7% 45% 20%;
+    grid-gap: 1px;
+    grid-template-areas:
+    "a a a a a a"
+    "b c c c d d"
+    "b c c c d d"
+    "b c c c d d"
+    "e e e e e e";
+}
+
+header{
+    font-size: 45px;
+}
+
+.grid div, a{
+    text-align: center;
+    font-size: 22.5px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color:  rgb(136, 239, 187);
+    color: rgba(4, 208, 96, 0.925)
+}

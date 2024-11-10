@@ -1,0 +1,37 @@
+.nav ul{
+    list-style-type: none;
+}
+
+nav>ul>li {
+    position: relative;
+}
+
+.nav li a{
+    display: block;
+    border: solid black 1px;
+    padding: 8px;
+    text-decoration: none;
+    background-color: yellow;
+}
+
+.nav li .second a{
+    border: dashed black 1px;
+    background-color: orange;
+    color: black;
+    width: 100px;
+}
+
+.nav li .second{
+    display: none;
+    position: absolute;
+    left: -40px;
+    
+}
+
+.nav li:hover .second{
+    display: block;
+}
+
+.nav li{
+    width: 200px;   
+}

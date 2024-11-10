@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<?xml-stylesheet type="text/xsl" href="lab13,1.xsl" ?>
+
+<table>
+	<row>
+		<film>Гарри Поттер</film>
+		<genre>Фэнтези</genre>
+	</row>
+	<row>
+		<film>Гордость и предубеждение</film>
+		<genre>Мелодрама</genre>
+	</row>
+	<row>
+		<film>Форсаж</film>
+		<genre>Боевик</genre>
+	</row>
+	<row>
+		<film>Оппенгеймер</film>
+		<genre>Исторический</genre>
+	</row>
+    <row>
+		<film>Барби</film>
+		<genre>Комедия</genre>
+	</row>
+    <row>
+		<film>Гринч</film>
+		<genre>Мультфильм</genre>
+	</row>
+    <row>
+		<film>Вышка</film>
+		<genre>Триллер</genre>
+	</row>
+</table>

@@ -1,0 +1,73 @@
+.container{
+    display: flex;
+    gap: 8px;
+}
+
+.link{
+    position: relative;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    width: 160px;
+    height: 30px;
+
+    text-decoration: none;
+    color: black;
+
+    border: 1px solid black;
+}
+
+.menu{
+    padding:0;
+
+    top: 15px;
+    
+    position: absolute;
+    display: none;
+}
+
+.menu > li{
+    list-style: none;
+}
+
+.link:hover .menu, .menu:hover{
+    display: flex;
+    flex-direction: column;
+}
+
+.link-icon::before{
+    content: "";
+
+    height: 30px;
+    width: 30px;
+
+    position: absolute;
+    left: 0;
+
+    display: none;
+}
+
+.link-icon:hover::before{
+    display: block;
+}
+
+.link-bstu::before{
+    background: url(facultet.png);
+}
+
+.link-it::before{
+    background-image: url(facultet.png);
+    background-position-y: 90px;
+}
+
+.link-pim::before{
+    background-image: url(facultet.png);
+    background-position-y: 30px;
+}
+
+.link-ht::before{
+    background-image: url(facultet.png);
+    background-position-y: 60px;
+}

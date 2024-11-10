@@ -1,0 +1,39 @@
+.grid{
+    display: grid;
+    grid-template-columns: 19% 19% 19% 19% 19%;
+    grid-gap: 1px;
+    margin: 5px;
+}
+
+img{
+    display: inline-block;
+    height: 140px;
+    width: 140px;
+}
+
+.nine{
+    grid-row: 2 / 4;
+    grid-column: 4 /6;
+}
+
+.ten{
+    grid-row: 3 / 5;
+    grid-column: 1 /3;
+}
+
+.grid div{
+    text-align: center;
+}
+
+h1{
+    text-align: center;
+}
+
+span{
+    position: absolute;
+    bottom: -60px;
+    left: 290px;
+    font-size: 20px;
+    color: darkslateblue ;
+    background-color: lightsteelblue;
+}

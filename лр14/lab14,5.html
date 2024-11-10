@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<style> 
+    polygon:hover{
+    stroke: blue;
+    }
+</style>
+
+<body>
+    <svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="100%" height="400" id="svg1">
+
+        <animate xlink:href="#ell" attributeName="fill" from="yellow" to="green" dur="3s" begin="click" end="freeze" />
+    
+        <defs>
+            <linearGradient id="perve" x1="0">
+                <stop offset="0" stop-color="green">
+                    <animate attributeName="stop-color" from="yellow" to="green" dur="3s" />
+                </stop>
+                <stop offset="1" stop-color="orange">
+                    <animate attributeName="stop-color" from="yellow" to="orange" dur="3s" />
+                </stop>
+            </linearGradient>
+        </defs>
+
+        <circle cx="200" cy="100" r="100" fill="blue"></circle>
+    
+        <rect x="400"  height="200px" width="200px" fill="red" stroke="white" stroke-width="4"/>
+        
+        <rect x="400"  height="200px" width="200px"  fill="none" stroke-dashoffset="800" stroke-dasharray="800" stroke="blue" stroke-width="8" >
+            <animate attributeName="stroke-dashoffset" dur="4s" begin="svg1.click" values="700;0" />
+        </rect>
+    
+        <ellipse id="ell" cx="800" cy="100" rx="150" ry="100" fill="green"></ellipse>
+    
+        <polygon points="1000,250 1150,0 1300,250 " fill="yellow" style="fill:url(#perve)"></polygon>
+        
+        <path d="M0,250 H850,250 M850,250 L450,300,H1700,450" stroke="purple" stroke-width="3"></path>
+    </svg>
+</body>
+</html>
