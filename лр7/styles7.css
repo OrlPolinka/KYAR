@@ -1,0 +1,21 @@
+div{
+    width: 300px;
+    height: 300px;
+    animation: text 5s linear infinite;
+    background-color: thistle;
+}
+
+@keyframes text{
+    0%{color: violet;}
+    50%{color: blueviolet;}
+    100%{color: violet;}
+}
+
+h1{
+    animation: name 5s linear infinite alternate;
+}
+
+@keyframes name{
+    0%{opacity: 0%;}
+    100%{opacity: 80%;}
+}

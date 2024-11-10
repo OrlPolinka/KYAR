@@ -1,0 +1,70 @@
+@keyframes animation1 {
+    0% {transform: perspective(200px) rotateY(40deg);
+    transform-style: flat;}
+    50% {transform: none;}
+    100% {}
+}
+
+@keyframes animation2 {
+    0%{transform: perspective(200px) rotateY(40deg);
+        transform-style: flat;}
+    50%{transform: translateX(-200px);
+        filter: none;}
+    100%{transform: none;
+        filter: blur(10px);}
+}
+
+@keyframes animation3 {
+    0%{transform: perspective(200px) rotateY(40deg);
+        transform-style: flat;}
+    50%{transform: translateX(-400px);
+        filter: none;}
+    100%{transform: none;
+        filter: grayscale(1);}
+}
+
+@keyframes animation4{
+    0%{transform: perspective(200px) rotateY(40deg);
+        transform-style: flat;}
+    50%{transform: translateX(-600px);
+        filter: none;}
+    100%{transform: none;
+        filter:invert(1);}
+}
+
+    img{
+        height: 17em;
+        width: 22em;
+    }
+
+    .i1{
+        position: relative;
+        animation: animation1 6s linear;
+    }
+
+    .i2{
+        position: relative;
+        animation: animation2 6s linear;
+        
+    }
+
+    .i3{
+        position: relative;
+        animation: animation3 6s linear;
+       
+    }
+
+    .i4{
+        position: relative;
+        animation: animation4 6s linear;
+       
+    }
+
+    h1{
+        animation: name 5s linear infinite alternate;
+    }
+
+    @keyframes name{
+        0%{opacity: 0%;}
+        100%{opacity: 80%;}
+    }

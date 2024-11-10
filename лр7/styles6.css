@@ -1,0 +1,73 @@
+.image-container{
+    display: flex;
+    flex-direction: column;
+}
+
+img{
+    height: 17em;
+    width: 22em;
+}
+
+.i1{
+    position: relative;
+    animation: an1 5s linear infinite;
+}
+
+.i2{
+    position: relative;
+    animation: an2 5s linear infinite;
+}
+
+.i3{
+    position: relative;
+    animation: an3 5s linear infinite;
+}
+
+.i4{
+    position: relative;
+    animation: an4 5s linear infinite;
+}
+
+.i5{
+    position: relative;
+    animation: an5 5s linear infinite;
+}
+
+@keyframes an1{
+    0%{left: 0px;}
+    100%{left: 200px;}
+}
+
+@keyframes an2{
+    0%{left: 0%;
+    transform: scale(1);}
+    100%{left: 100%;
+    transform: scale(2);}
+}
+
+@keyframes an3{
+    0%{left: -100%;}
+    100%{left: 100%;}
+}
+
+@keyframes an4{
+    0%{top: 0px;}
+    100%{top: 50px;}
+}
+
+@keyframes an5{
+    0%{top: 0px; left: 0px;}
+    25%{top: 0px; left: 50px;}
+    50%{top: 50px; left: 50px;}
+    75%{top: 50px; left: 0px;}
+    100%{top: 0px; left: 0px;}
+}
+
+h1{
+    animation: name 5s linear infinite alternate;
+}
+
+@keyframes name{
+    0%{opacity: 0%;}
+    100%{opacity: 80%;}
+}

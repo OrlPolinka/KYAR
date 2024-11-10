@@ -1,0 +1,29 @@
+img{
+    height: 17em;
+    width: 22em;
+}
+
+.i1{
+    transform: perspective(1000px) rotateX(50deg);
+}
+
+.i2{
+    transform: perspective(1000px) rotateY(50deg);
+}
+
+.i3{
+    transform: perspective(1000px) rotateX(50deg); 
+}
+
+.i4{
+    transform: perspective(1000px) rotateY(-50deg);
+}
+
+h1{
+    animation: name 5s linear infinite alternate;
+}
+
+@keyframes name{
+    0%{opacity: 0%;}
+    100%{opacity: 80%;}
+}

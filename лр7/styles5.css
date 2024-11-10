@@ -1,0 +1,71 @@
+img{
+    height: 17em;
+    width: 22em;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    border: 3px solid red;
+    position: absolute;
+}
+
+.image-container{
+    position: relative;
+}
+
+@keyframes an1{
+    20%{opacity: 1;}
+    40%{opacity: 0;}
+    60%{opacity: 0;}
+    80%{opacity: 0;}
+    100%{opacity: 0;}
+}
+
+@keyframes an2{
+    20%{opacity: 0;}
+    40%{opacity: 1;}
+    60%{opacity: 0;}
+    80%{opacity: 0;}
+    100%{opacity: 0;}
+}
+
+@keyframes an3{
+    20%{opacity: 0;}
+    40%{opacity: 0;}
+    60%{opacity: 1;}
+    80%{opacity: 0;}
+    100%{opacity: 0;}
+}
+
+@keyframes an4{
+    20%{opacity: 0;}
+    40%{opacity: 0;}
+    60%{opacity: 0;}
+    80%{opacity: 1;}
+    100%{opacity: 0;}
+}
+
+@keyframes an5{
+    20%{opacity: 0;}
+    40%{opacity: 0;}
+    60%{opacity: 0;}
+    80%{opacity: 0;}
+    100%{opacity: 1;}
+}
+
+.i1{animation-name: an1;}
+
+.i2{animation-name: an2;}
+
+.i3{animation-name: an3;}
+
+.i4{animation-name: an4;}
+
+.i5{animation-name: an5;}
+
+h1{
+    animation: name 5s linear infinite alternate;
+}
+
+@keyframes name{
+    0%{opacity: 0%;}
+    100%{opacity: 80%;}
+}

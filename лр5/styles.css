@@ -1,0 +1,11 @@
+table{
+    border-collapse: collapse;
+}
+
+.stroka1{
+    background-color: darkviolet;
+}
+
+.stolbec1{
+    background-color: deeppink;
+}

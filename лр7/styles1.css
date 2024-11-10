@@ -1,0 +1,33 @@
+.i1:hover{
+    transform: scale(0.5);
+    transition: transform 5s;
+}
+
+.i2:hover{
+    transform: rotate(45deg);
+    transition: transform 5s;
+}
+
+.i3:hover{
+    transform: translate(50px);
+    transition: transform 5s;
+}
+
+.i4:hover{
+    transform: skew(-20deg);
+    transition: transform 5s;
+}
+
+img{
+    height: 17em;
+    width: 22em;
+}
+
+h1{
+    animation: name 5s linear infinite alternate;
+}
+
+@keyframes name{
+    0%{opacity: 0%;}
+    100%{opacity: 80%;}
+}

@@ -1,0 +1,56 @@
+@font-face {font-family: 'Caveat';
+    src: url('fonts/Caveat.woff') format('woff');}
+    h1{
+        font-family: 'Caveat'; 
+        margin-bottom: 0px; 
+        text-align: center; 
+        font-style: bold;
+        text-transform: capitalize;
+        font-size: 45px;    
+      }
+
+    @font-face {font-family: 'Exo2';
+        src: url('fonts/Exo2.woff') format('woff');}
+        h2{
+            font-family: 'Exo2';
+            margin-bottom: 1.2em;
+            margin-top: 0.2rem;
+            text-indent: 25px;
+            text-align: left;
+          }
+
+        @font-face {font-family: 'Comfortaa';
+            src: url('fonts/Comfortaa.woff') format('woff');}
+            p{
+                font-family: 'Comfortaa';
+                text-indent: 25px;
+                text-align: justify;
+                margin: 0px;
+                line-height: 200%;
+                font-size: 20px;    
+             }
+
+             p::first-letter{
+                font-style: bold;
+                font-size: 45px;
+                color:white;
+                background-color: hsla(275, 100%, 10%, 1);
+             }
+
+             .one{margin-bottom: 0px;}
+
+             ol li{
+                list-style-type: none;
+                counter-increment: item;
+                color:black;
+                font-family: 'Comfortaa'
+                text-indent: 25px;
+                text-align: justify;
+                margin: 0px;
+                line-height: 200%;
+                font-size: 20px;    
+             }
+
+             li::before{content: counter(item, upper-roman); color: blue;}
+
+             

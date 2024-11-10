@@ -1,0 +1,32 @@
+div{
+    display: inline-block;
+    border: 1px solid black;
+    margin: 10px;
+    padding: 50px;
+}
+
+.fon1{
+    background-image: linear-gradient(blue, red);
+}
+
+.fon2{
+    background-image: repeating-linear-gradient(45deg, blue 0px, blue 10px, red 10px, red 20px);
+}
+
+.fon3{
+    background-image: radial-gradient(yellow, green);
+}
+
+.fon4{
+    background-image: repeating-radial-gradient(green 0px, green 10px, yellow 10px, yellow 20px);
+}
+
+.fon5{
+    background-image: linear-gradient( blue, rgb(237, 95, 237)), radial-gradient(circle at center, yellow, rgb(18, 158, 18), transparent);
+    background-blend-mode: overlay;
+}
+
+.fon6{
+    background-image: linear-gradient(to right, yellow, green, transparent), linear-gradient(to bottom, black 30%, white 70%, blue 75%, rgb(237, 95, 237) 88%);
+    
+}

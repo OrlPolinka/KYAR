@@ -1,0 +1,73 @@
+.one{
+    display: inline-block;
+    margin: 10px;
+    border: 10px outset rgba(255,0,0,0.75);
+    padding: 10px;
+}
+
+.two{
+    display: inline-block;
+    margin: 10px;
+    border: 10px dashed rgba(0,255,0,0.75);
+    padding: 10px;
+}
+
+.three{
+    display: inline-block;
+    margin: 10px;
+    border: 10px dotted rgba(0,0,255,0.75);
+    padding: 10px;
+}
+
+.for{
+    display: inline-block;
+    margin: 10px;
+    border: 10px double rgba(0,255,255,0.75);
+    padding: 10px;
+}
+
+.five{
+    display: inline-block;
+    margin: 10px;
+    border: 10px groove rgba(255,0,255,0.75);
+    padding: 10px;
+}
+
+.six{
+    display: inline-block;
+    margin: 10px;
+    border: 10px inset rgba(255,255,0,0.75);
+    padding: 10px;
+}
+
+.seven{
+    display: inline-block;
+    margin: 10px;
+    border: 10px solid rgba(0,0,0,0.75);
+    padding: 10px;
+}
+
+span{
+    display: block;
+    margin: 5px;
+    padding: 5px;
+    border: solid #FF4500;
+    background-color: #FFA500;
+}
+
+.abzac1{
+    border: solid #FF7F50;
+    width: 400px;
+    text-align: center;
+}
+
+.abzac2{
+    border: 5px solid red;
+    border-radius: 20px/40px;
+    box-shadow: inset 2px 2px 8px 8px rgba(0,0,0,0.5);
+    overflow: auto;
+}
+
+.abzac3{
+    border: solid #FF6347;
+}

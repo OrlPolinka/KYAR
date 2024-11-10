@@ -1,0 +1,46 @@
+.b1:hover{
+    background-color: black;
+    color: white;
+}
+
+.b2:hover{
+    border: solid 3px red;
+    outline: solid 3px yellow;
+    background-color: white;
+}
+
+.b3:hover{
+    border-bottom: solid 3px green;
+    border-top: solid 3px green;
+    border-left: 0px;
+    border-right: 0px;
+    background-color: white;
+}
+
+.b4:hover{
+    background-color: white;
+    border-top: 0px;
+    border-bottom: 0px;
+    border-left: solid 3px blue;
+    border-right: solid 3px blue;
+
+}
+
+.b5:hover{
+    background-image: radial-gradient(rgb(255, 238, 0), rgb(244, 173, 220), rgb(216, 48, 216), rgb(9, 174, 224));
+    border: 0px;
+}
+
+.b1, .b2, .b3, .b4, .b5{
+    display: inline-block;
+    margin: 20px;
+}
+
+h1{
+    animation: name 5s linear infinite alternate;
+}
+
+@keyframes name{
+    0%{opacity: 0%;}
+    100%{opacity: 80%;}
+}

@@ -1,0 +1,36 @@
+ul li{
+    list-style: none;
+    background-image: url(marker2.png);
+    background-repeat: no-repeat;
+    background-position: 1 4px;
+    padding-left: 25px;
+    margin-bottom: 10px;
+}
+
+html{
+    background-image: url(fit.jpg);
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-attachment: fixed;
+    background-size: 200px 200px;
+    
+}
+
+.img1{
+    height: 300px;
+    width: 300px;
+    float: left;
+}
+
+.img2{
+    float: right;
+    height: 300px;
+    width: 300px;
+}
+
+p{
+    margin-top: -25px;
+    margin-bottom: -25px;
+    text-indent: 20px;
+}
+

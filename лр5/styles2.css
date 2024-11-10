@@ -1,0 +1,36 @@
+table{
+    empty-cells: hide;
+    border-spacing: 0px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+table td{
+    border: 1px solid black; 
+}
+
+h2{
+    size: 1.2em;
+    text-align: center;
+}
+
+.tr1{
+    background-color: darkblue;
+    color: white;
+}
+
+.stolbec2{
+    color: white;
+    background-color: #0BFF;
+}
+
+.stolbec3{
+    color: white;
+    background-color: purple;
+}
+
+.stolbec4{
+    color: white;
+    background-color: green;
+}
